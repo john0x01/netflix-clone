@@ -1,0 +1,18 @@
+.movie-list {
+    margin: 40px;
+    margin-right: 0px;
+}
+
+.movie-list h1 {
+    font-size: 1.4vw;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.movies {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    gap: 4px;
+    padding-bottom: 10px !important;
+}

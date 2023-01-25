@@ -1,0 +1,9 @@
+.movie-thumbnail {
+    display: inline-block;
+    white-space: normal;
+}
+
+.movie-thumbnail img {
+    border-radius: 4px;
+}
+

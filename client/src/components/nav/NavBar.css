@@ -1,0 +1,48 @@
+nav {
+    padding: 20px 48px 24px 48px;
+}
+
+.nav-left {
+    display: flex;
+    float: left;
+    align-items: center;
+}
+.nav-left .nav-logo img {
+    width: 96px;
+    height: auto;
+    margin-right: 48px;
+}
+
+.nav-left a {
+    display: block;
+    margin: 0px 8px 0px 8px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFFFF0;
+    transition: 0.5;
+}
+
+.nav-left a:hover:not(.link-active) {
+    transition: 0.5s;
+    color: #AAAAAA;
+}
+
+.nav-left .link-active {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 14.3px;
+}
+
+
+.nav-right {
+    display: flex;
+    float: right;
+    align-items: baseline;
+    gap: 24px;
+}
+
+.nav-right svg {
+    color: #FFFFF0;
+    width: 24px;
+    height: auto;
+}
