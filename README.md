@@ -55,7 +55,7 @@ async function setTvData() {
 }
 ```
 
-Now I was able to map the arrays and display the thumbnails using the `MovieItem.tsx` component
+Now I was able to map the arrays and display the thumbnails using the ```MovieItem.tsx``` component
 
 ```
 interface MovieItemProps {
@@ -136,10 +136,10 @@ return (
 Now the result was like this:
 ![image](https://user-images.githubusercontent.com/78546581/214465722-28856b0d-9587-4438-93d0-610d1471ecb1.png)
 
-After the component MovieRow was complete, I added more rows with differents categories/lists similar to Netflix's ones
+After the component MovieRow was complete, I added more rows with differents categories/lists similar to Netflix ones
 ![image](https://user-images.githubusercontent.com/78546581/214468429-1f65b123-d16d-4d62-a919-c0e5151f4ea0.png)
 
 The next step was to build the Navbar
-![image](https://user-images.githubusercontent.com/78546581/214468583-568d449e-5098-4898-b50c-e2994f7a582f.png)UN
+![image](https://user-images.githubusercontent.com/78546581/214468583-568d449e-5098-4898-b50c-e2994f7a582f.png)
 ***[UNDER DEVELOPMENT]****
 
